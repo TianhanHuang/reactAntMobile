@@ -1,0 +1,6 @@
+@import '../../style/main.scss';
+.testword{
+  @include overflow(2);
+  @include font;
+  // @include position(fixed, .50rem, .30rem)
+}
